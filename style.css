@@ -148,7 +148,48 @@
 
 .background-4 {
     height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.background-4 .box {
+    display: flex;
+    flex-basis: 70%;
+    height: 40%;
+    background-color: #3883f6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background-4 .box .left {
+    margin-left: 10%;
+}
+
+.background-4 .box .left .big-text {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.background-4 .box .left .small-text {
+    color: rgba(255, 255, 255, 0.78);
+
+}
+
+.background-4 .box .right {
+    margin-right: 10%;
+}
+
+.background-4 .box .right .button {
+    padding: 5px 25px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
 
 .background-5 {
     background-color: #1F2937;
